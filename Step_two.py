@@ -3,8 +3,8 @@ from datetime import datetime
 from pathlib import Path
 
 # Tracking down data and output folders locally
-data_path = Path(r"C:\Users\Diksha Uike\Downloads\Redrob_Hackathon\data")
-output_path = Path(r"C:\Users\Diksha Uike\Downloads\Redrob_Hackathon\output")
+data_path = Path(r"C:\Users\Diksha Uike\Downloads\R\data")
+output_path = Path(r"C:\Users\Diksha Uike\Downloads\R\output")
 
 full_pool_file = data_path / "candidates.jsonl"
 results_output = output_path / "honeypots_detected.json"
