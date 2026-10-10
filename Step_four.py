@@ -7,8 +7,8 @@ import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Local storage configuration paths
-base_dir = Path(r"C:\Users\Diksha Uike\Downloads\Redrob_Hackathon\data")
-output_dir = Path(r"C:\Users\Diksha Uike\Downloads\Redrob_Hackathon\output")
+base_dir = Path(r"C:\Users\Diksha Uike\Downloads\R\data")
+output_dir = Path(r"C:\Users\Diksha Uike\Downloads\R\output")
 
 candidate_pool_path = base_dir / "candidates.jsonl"
 honeypot_blacklist_path = output_dir / "honeypots_detected.json"
