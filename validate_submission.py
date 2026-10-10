@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Validate submission CSV per challenge rules (sections 2–3).
+
 Row 1 = header. Rows 2–101 = exactly 100 data rows. CSV only.
 """
 
@@ -147,7 +147,7 @@ def validate_submission(csv_path):
 
 def main():
     # We are hardcoding the filename so it works when you click "Run" in Spyder
-    csv_file =  r"C:\Users\Diksha Uike\Downloads\Redrob_Hackathon\output\submission.csv"
+    csv_file =  r"C:\Users\Diksha Uike\Downloads\R\output\submission.csv"
     print(f"Validating {csv_file}...")
     
     errors = validate_submission(csv_file)
