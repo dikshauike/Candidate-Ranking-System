@@ -1,7 +1,6 @@
-Create a new text file in your Redrob_Hackathon folder, paste this inside, and save it as README.md. (You can edit this later to add your own style).
 
 🧠 Redrob AI Candidate Ranking System
-This project is a solution for the Redrob Hackathon - Intelligent Candidate Discovery & Ranking Challenge. It ranks 100,000 candidates for a Senior AI Engineer role based on semantic similarity, experience, behavioral signals, and culture fit, while actively filtering out "honeypot" (fake) profiles.
+This project is a solution for the Intelligent Candidate Discovery & Ranking. It ranks 100,000 candidates for a Senior AI Engineer role based on semantic similarity, experience, behavioral signals, and culture fit, while actively filtering out "honeypot" (fake) profiles.
 
 🏗️ Architecture & Methodology
 The system uses a two-phase approach to bypass the 5-minute CPU compute limit:
