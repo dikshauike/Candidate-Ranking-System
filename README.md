@@ -1,5 +1,5 @@
 
-🧠 Redrob AI Candidate Ranking System
+🧠 Candidate Ranking System
 This project is a solution for the Intelligent Candidate Discovery & Ranking. It ranks 100,000 candidates for a Senior AI Engineer role based on semantic similarity, experience, behavioral signals, and culture fit, while actively filtering out "honeypot" (fake) profiles.
 
 🏗️ Architecture & Methodology
