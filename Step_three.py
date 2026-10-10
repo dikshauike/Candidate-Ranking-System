@@ -6,12 +6,12 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 # mapping local working files
-root_dir = Path(r"C:\Users\Diksha Uike\Downloads\Redrob_Hackathon\data")
+root_dir = Path(r"C:\Users\Diksha Uike\Downloads\R\data")
 cand_source = root_dir / "candidates.jsonl"
 jd_source = root_dir / "job_description.md"
 
 # O/P data stores linked to the new output path
-output_path = Path(r"C:\Users\Diksha Uike\Downloads\Redrob_Hackathon\output")
+output_path = Path(r"C:\Users\Diksha Uike\Downloads\R\output")
 vector_dump_file = output_path / "candidate_embeddings.pkl"
 jd_dump_file = output_path / "jd_embedding.pkl"
 
