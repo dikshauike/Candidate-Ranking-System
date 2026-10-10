@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 # hardcoding my local path for now, need to change if moving to sandbox
-base_path = Path(r"C:\Users\Diksha Uike\Downloads\Redrob_Hackathon\data")
+base_path = Path(r"C:\Users\Diksha Uike\Downloads\R\data")
 
 
 def main():
